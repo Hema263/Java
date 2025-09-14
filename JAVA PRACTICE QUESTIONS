@@ -1,0 +1,161 @@
+Q1.  EVEN_OR_ODD
+
+import java.util.Scanner;
+public class even_or_odd {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int num=scan.nextInt();
+        if(num%2==0){
+            System.out.println("Even");
+        }
+        else{
+            System.out.println("Odd");
+        }
+    }
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q2.   POSITIVE_OR_NEGATIVE
+
+import java.util.Scanner;
+
+public class positive_or_negative {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the number:");
+        int a=sc.nextInt();
+        if (a>0) {
+            System.out.println("Positive");
+            
+        }
+        else if (a<0) {
+            System.out.println("Negative");
+        }
+        else{
+            System.out.println("Zero");
+        }
+    }
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q3.  DIVISIBLE_BY_3_AND_5
+
+import java.util.Scanner;
+
+public class divisibleBy3and5 {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int a=scan.nextInt();
+        if (a%3==0  && a%5==0 ) {
+           System.out.println("Yes"); 
+        }
+        else{
+            System.out.println("No");
+        }
+        
+    }
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q4.  CONVERT_DAYS_TO_YEARS,MONTHS
+
+import java.util.Scanner;
+
+public class covert_daystoyears {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter the number of days");
+        int number_of_days=scan.nextInt();
+        int years=number_of_days/365;
+        System.out.println("years:" + years);
+        int remaining_days=number_of_days%365;
+        int months=remaining_days/30;
+        System.out.println("months:" + months);
+        int days=remaining_days%30;
+        System.out.println("days:" + days);
+    }
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q5.   MAX_MIN
+
+import java.util.Scanner;
+
+public class maxandmin {
+  public static void main(String[] args) {
+    Scanner scan=new Scanner(System.in);
+    int a=scan.nextInt();
+    int b=scan.nextInt();
+    
+    if(a>b){
+        System.out.print("Max="+ a);
+    }
+    else{
+        System.out.println("Max="+ b);
+    }
+    
+    if(a<b){
+        System.out.println("Min=" + a );
+    }
+    else{
+        System.out.println("Min="+ b);
+    }
+    
+  }   
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q6.  MAX_OF_3NUMBERS
+
+import java.util.Scanner;
+
+public class maxof3numbers {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        int b=scan.nextInt();
+        int c=scan.nextInt();
+        if(a>b && a>c){
+            System.out.println(a);
+        }
+            else if(b>a && b>c){
+                System.out.println(b);
+            }
+            else{
+                System.out.println(c);
+            }
+        
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q7.  +VE_-VE_ZER0
+
+import java.util.Scanner;
+
+public class pos_neg_zero {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n= sc.nextInt();
+         if(n>0){
+            System.out.println("Positive");
+        }
+        else if(n<0){
+            System.out.println("Negative");
+        }
+        else{
+            System.out.println("Zero");
+        }
+    }
+    
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q8.  
+
+
+
+
+
+
